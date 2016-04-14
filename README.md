@@ -22,11 +22,12 @@ Use stylesheets, sass, haml, partials, loops, all modern practices and compile t
 ```
 bundle install
 middleman server
+# or bundler exec middleman server if you have troubles with different versions
 ```
 http://127.0.0.0:4567/
 
 when all done
 
 ```
-middleman build
+bundler exec middleman build
 ```
