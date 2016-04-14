@@ -2,9 +2,9 @@ Mail-factory
 ============
 
 ```
-//////////////////
-// MAIL FACTORY //
-//////////////////
+///////////////////////
+//    MAIL FACTORY   //
+///////////////////////
 ```
 
 Mail-factory is solution based on [middelman](http://middlemanapp.com/ "middlemanapp.com") and [premailer](http://premailer.dialect.ca/ "premailer.dialect.ca") for fast and painless build html e-mails.

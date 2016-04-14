@@ -27,6 +27,7 @@ set :images_dir, 'images'
 
 configure :development do
   activate :livereload
+  print "///////////////////////\n//    MAIL FACTORY   //\n/////////////////////// Develop ....\n"
 end
 
 #///////////////////////////////////////////////////////////////////////////////
@@ -36,4 +37,5 @@ end
 configure :build do
    set :relative_links, true
    activate :relative_assets
+   print "///////////////////////\n//    MAIL FACTORY   //\n/////////////////////// Build ....\n"
 end
