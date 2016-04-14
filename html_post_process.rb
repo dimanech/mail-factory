@@ -4,7 +4,7 @@ module HtmlPostProcess
       app.after_build do |builder|
         Dir.chdir(build_dir) do
           Dir.glob('**/*.html') do |file|
-            remove_strings=File.read(file).gsub('-premailer-cellpadding: 0;', '').gsub('-premailer-cellspacing: 0;', '').gsub(': ', ':').gsub('; ' , ';').gsub(', sans' , ',sans')
+            remove_strings=File.read(file).gsub(/-premailer-cellpadding: (.)*;/, '').gsub(/-premailer-cellspacing: (.)*;/, '').gsub(/-premailer-width: (.)*;/, '').gsub(/-premailer-height: (.)*;/, '').gsub(': ', ':').gsub('; ' , ';').gsub(', sans' , ',sans').gsub('style=" ', 'style="')
             File.open(file, "w") do |f|
               f.write(remove_strings)
             end
