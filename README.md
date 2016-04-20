@@ -29,5 +29,5 @@ http://127.0.0.0:4567/
 when all done
 
 ```
-bundler exec middleman build
+bundle exec middleman build
 ```
