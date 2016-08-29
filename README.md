@@ -7,9 +7,9 @@ Mail-factory
 ///////////////////////
 ```
 
-Mail-factory is solution based on [middelman](http://middlemanapp.com/ "middlemanapp.com") and [premailer](http://premailer.dialect.ca/ "premailer.dialect.ca") for fast and painless build html e-mails.
+Mail-factory is a tool based on [middelman](http://middlemanapp.com/ "middlemanapp.com") and [premailer](http://premailer.dialect.ca/ "premailer.dialect.ca") for fast and painless building HTML e-mails.
 
-Use stylesheets, sass, haml, partials, loops, all modern practices and compile that to old, ugly, difficult to maintain, but good working with mail clients code.
+Use stylesheets, sass, haml, partials, loops, all modern practices and compile that to old, ugly, difficult to maintain, but working good with mail clients code.
 
 ## Main features
 
@@ -27,7 +27,6 @@ middleman server
 http://127.0.0.0:4567/
 
 when all done
-
 ```
 bundle exec middleman build
 ```
